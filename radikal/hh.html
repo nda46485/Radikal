@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+    <meta charset='utf-8'>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <title>Page Title</title>
+    <link rel='stylesheet' href='main.css'>
+</head>
+<body>
+    <script>
+        let task = {
+            "name": 'study',
+            "description": 'study for the test',
+            "duration": 60,
+            "complete": false
+        };
+        task["complete"] = true;
+        console.log(task);
+        let task2 = {}
+        let name = prompt('enter task name');
+        let description = prompt('enter task description');
+        let duration = prompt('enter task duration');
+        task2.name = name;
+        task2.description = description;
+        task2.duration = duration;
+        task2.complete = false;
+        console.log(task2);
+        let tasks = [task, task2];
+        console.log(tasks);
+    </script>
+    test js
+</body>
+</html>
